@@ -1,0 +1,18 @@
+body {
+  /*This is to add a background. Let's make it pretty and centered!*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("https://picsum.photos/id/141/2000/1000");
+  background-position: center;
+  background-repeat: no-repeat;
+  /* Something to note: without this overflow property, the res of the photo would cause the page to have a scroll bar. 
+  I really don't like the look of it so I added in hidden overflow.*/
+  overflow: hidden;
+}
+heading h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
