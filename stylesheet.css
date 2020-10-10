@@ -16,3 +16,38 @@ heading h1 {
   justify-content: center;
   text-align: center;
 }
+nav a:hover {
+  background-color: hsl(340deg, 86%, 50%);
+  color: hsl(300deg, 0%, 90%);
+}
+nav a:active {
+  background-color: hsl(340deg, 86%, 50%);
+  color: hsl(350deg, 100%, 40%);
+}
+nav .register {
+  background-color: hsl(340deg, 0%, 90%);
+  color: hsl(340deg, 86%, 50%)
+}
+nav {
+  margin-bottom: 2rem;
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+
+  display: flex;
+}
+nav ul li {
+  flex: auto;
+  text-align: top;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+
+  border: 1px solid white;
+
+  display: block;
+  padding: 0.5em 1em;
+}
+

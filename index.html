@@ -4,9 +4,30 @@
     <link rel=stylesheet href="stylesheet.css">
   </head>
   <body>
-    <heading> <h1>Tweedie Inc.</h1></heading>
+    <!-- This is the heading, followed by the paragraph. I initially had the heading tag above the main, so the parent element would be the body tag, 
+      however this made it so that the heading and the paragraph were on the same inline element, 
+      so I put them within the main to make it so that the heading would appear above the paragraph tag. -->
+    
     <main>
+      <heading> <h1>Tweedie Inc.</h1></heading>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </main>
+    <nav> 
+      <ul>
+        <li>
+          <!-- Gotta make the navigation bar. This will appear on each page that is loaded.-->
+          <a class="contactUs" href="#">Contact Us</a>
+        </li>
+        <li>
+          <a class="gallery" href="#"> Gallery</a>
+        </li>
+        <li> 
+          <a class="login" href="#"> Login</a>
+        </li>
+        <li> 
+          <a class="register" href="#"> Register</a> <!-- I need to make this button different than others, so in my stylesheet file, I'll change the color and contrast of it.-->
+        </li>
+      </ul>
+    </nav>
+  </main>
   </body>
 </html>
