@@ -22,11 +22,11 @@ nav a:hover {
 }
 nav a:active {
   background-color: hsl(340deg, 86%, 50%);
-  color: hsl(350deg, 100%, 40%);
+  color: rgb(255, 255, 255);
 }
 nav .register {
   background-color: hsl(340deg, 0%, 90%);
-  color: hsl(340deg, 86%, 50%)
+  color: hsl(340deg, 86%, 50%);
 }
 nav {
   margin-bottom: 2rem;
@@ -49,5 +49,14 @@ nav a {
 
   display: block;
   padding: 0.5em 1em;
+}
+footer {
+  /*to make the footer evenly spaced, and pretty*/
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid white;
+  padding-top: 1em;
+  color: white;
+  
 }
 
