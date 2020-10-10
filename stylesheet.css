@@ -57,6 +57,17 @@ footer {
   border-top: 2px solid white;
   padding-top: 1em;
   color: white;
-  
+
+  font-family: 'Quicksand', sans-serif;
+}
+h1 {
+  /*for this and p, calling on those font links to make it prettier.*/
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 44px;
+}
+p {
+  font-family: 'Quicksand', sans-serif;
+  color: white;
 }
 
