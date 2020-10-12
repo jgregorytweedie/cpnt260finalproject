@@ -1,0 +1,78 @@
+body {
+  /*By setting it as flex, and setting the height to 100vh, I can make my card appear in the center of the page.*/
+  display: flex;
+ 
+  height: 100vh;
+}
+.cardWrap {
+  
+  margin: auto;
+ 
+  display: flex;
+  flex-direction: column;
+  
+  min-width: 20ch;
+  max-width: 40ch;
+  height: 70vh;
+  
+  background-color: #f2f1f1;
+ 
+  
+
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: 
+    linear-gradient(360deg, #f2f1f1 50%, transparent 50%), /*Without this gradient, the white background can't go up to the halfway point of the picture of the lady, so  iset it to 360, 50% of the background color for the card, and make the other 50% transparent.*/
+    
+    url('https://i.picsum.photos/id/1015/6000/4000.jpg?hmac=aHjb0fRa1t14DTIEBcoC12c5rAXOSwnVlaA5ujxPQ0I');
+  background-size: 100%;
+  margin-bottom: -20px;
+  
+}
+.header img {
+  /*This is the picture of Jane doe. Because it is an image tag within the header, I have to specify the path, so this shows the img tag is within the header. 
+  Now, I need to set it so it appears in a circle*/
+  border-radius: 50%;
+  width: 20ch;
+  height: 20ch;
+  /* I want to make sure that the border radius of the picture is the same colour as the background colour of the card*/
+  border: 5px solid #f2f1f1;
+  margin-top: 15px;
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+  flex-grow: 1;
+  
+  margin-top: 10px;
+  text-align: center;
+}
+h2 {
+  font-family: 'Epilogue', sans-serif;
+  font-size: 20px;
+  
+}
+p {
+ font-family: 'Poppins', sans-serif; 
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  /*Space evenly is to make the icons fit side by side with each other*/
+  padding: 9px;
+  border-top: 2px solid lightgrey;
+  font-size: 44px;
+}
+/*styled the form a bit just so it looks more convenient.*/
+.form {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
